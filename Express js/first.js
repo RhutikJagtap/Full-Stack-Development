@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     res.send("Hello World From the RJ!")
 })
 
-//server listening at port 4000 for any request.
+//server listening at port 3000 for any request.
 app.listen(port, () => {
     console.log(`listening on port ${port}`)
 })
