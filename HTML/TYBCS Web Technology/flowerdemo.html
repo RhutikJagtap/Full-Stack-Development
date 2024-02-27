@@ -1,0 +1,36 @@
+<!-- set B
+  Q 2. Write HTML 5 code which generates the following output and display each element of list in different size, color & font. Use external CSS to format the list
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="list.css" />
+    <title>List</title>
+  </head>
+  <body>
+    <ul>
+      <div class="nfp">
+        <li>Non flowering Plants</li>
+        <ul>
+          <li>Fern</li>
+          <li>Spore</li>
+        </ul>
+      </div>
+
+      <br />
+      <div class="fp">
+        <li>Flowering Plants</li>
+        <ul type = "square">
+          <li>Lilly</li>
+          <li>Rose</li>
+          <div class="rose">
+            <ol>
+              <li>Red Rose</li>
+              <li>Pink Rose</li>
+            </ol>
+          </div>
+        </ul>
+      </div>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!-- 
+SET B
+Q 1. Write the HTML code for generating the form as shown below.
+Apply the internal CSS to following form change the font size of the heading to 6pt and change the color to red and also change the background color yellow
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Os Info</title>
+     <style>
+       h1 {
+         color: red;
+         font-size: 6pt;
+       }
+       body {
+         background-color: yellow;
+       }
+     </style>
+   </head>
+ 
+   <body>
+     <form action="#" method="get">
+       <h1>Operating System Information</h1>
+       <br />
+ 
+       <label>Enter Your Name :</label>
+       <input
+         type="text"
+         name="name"
+         placeholder="Enter your name"
+       /><br /><br />
+ 
+       <label>Password : </label>
+       <input
+         type="password"
+         name="password"
+         placeholder="Enter Password"
+       /><br /><br />
+ 
+       <b>Which of the Following Operating System have you used</b> <br /><br />
+       <input type="checkbox" />
+       <label>Linux</label>
+ 
+       <input type="checkbox" />
+       <label>Windows 10</label>
+ 
+       <input type="checkbox" />
+       <label>Macintosh 8.0</label><br /><br />
+ 
+       <b>Which of the Following Operating System do you like Best ?</b>
+       <br /><br />
+ 
+       <input type="radio" name="os" />
+       <label>Linux</label>
+ 
+       <input type="radio" name="os" />
+       <label>Windows 10</label>
+ 
+       <input type="radio" name="os" />
+       <label>Macintosh 8.0</label><br /><br />
+ 
+       <b>You have Completed the Form</b> <button>Sign Up</button>
+     </form>
+   </body>
+ </html>
