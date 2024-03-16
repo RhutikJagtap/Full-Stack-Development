@@ -1,4 +1,4 @@
-//Node js Http Module
+//create a server using http module
 
 //import http Module in Node js
 var http = require("http");
