@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global variable</title>
+</head>
+
+<body>
+    <!-- Variable Scope In Javascript -->
+    <!-- The variable which are declare outside the function that variable are called gloabal variable -->
+    <!-- The scope of global variable is anywhere means we can access  it inside the function and also outside the function -->
+    <script>
+        var num = 10
+
+        function test() {
+            document.write(num);
+        }
+
+        //function call
+        test();
+        document.write("<br>");
+
+        document.write(num);
+    </script>
+
+</body>
+
+</html>

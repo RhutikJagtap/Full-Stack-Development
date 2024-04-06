@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Variable </title>
+</head>
+
+<body>
+    <!-- Variable Scope In Javascript -->
+    <!-- The variable which are declare Inside the function that variable are called local variable -->
+    <!-- The scope of local variable is limited means we can access  it inside the function only-->
+    <!-- we an not access local variable outside the function -->
+    <script>
+
+        function test() {
+            //local variable
+            var num = 10;
+            document.write(num)
+        }
+
+        //function call
+        test();
+
+        //check error at console num is not defined
+        document.write(num);
+
+
+    </script>
+
+</body>
+
+</html>
