@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <%- include('common/header'); %>
+        <center>
+            <h2 style="color: red;">
+
+                <%=invalid %>
+            </h2>
+
+
+            <h2>LogIn Page</h2>
+            <form action="/loginUser" method="post">
+                <label for="uname">Enter Username</label> <br>
+                <input type="text" placeholder="username" name="uname"><br><br>
+                <label for="uname">Enter Password</label> <br>
+                <input type="password" placeholder="password" name="pwd"><br><br>
+                <button type="submit">LogIn</button>
+            </form>
+
+            Not a member signup first <a href="/signupPage">signup</a>
+
+        </center>
+
+</body>
+
+</html>
+<%- include('common/footer'); %>
